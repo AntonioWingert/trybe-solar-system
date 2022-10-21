@@ -1,3 +1,102 @@
 .App {
   text-align: center;
 }
+
+body {
+  background-image: url('images/background.png');
+}
+
+.header {
+  color: white;
+  margin-top: 100px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.ulPlanets {
+  color: white;
+  display: flex;
+  flex-direction: row;
+}
+
+.planets {
+  align-self: baseline;
+  height: 300px;
+  text-align: center;
+}
+
+.Mercúrio {
+  height: 31px;
+  width: 41px;
+}
+
+.Vênus {
+  height: 76px;
+  width: 102px;
+}
+
+.Terra {
+  height: 79px;
+  width: 106px;
+}
+
+.Marte {
+  height: 50px;
+  width: 66px;
+}
+
+.Júpiter {
+  height: 204px;
+  width: 272px;
+}
+
+.Saturno {
+  height: 210px;
+  width: 282px;
+}
+
+.Urano {
+  height: 109px;
+  width: 144px;
+}
+
+.Netuno {
+  height: 107px;
+  width: 144px;
+}
+
+.ulMissions {
+  display: flex;
+  flex-flow: row wrap;
+  height: 900px;
+  margin-left: 8%;
+  padding: 25px;
+  width: 80%;
+}
+
+.title {
+  color: white;
+  padding: 50px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.missionCard {
+  border: 1px solid white;
+  height: 192px;
+  width: 496px;
+}
+
+.missionName {
+  color: white;
+  font-size: 25px;
+  font-weight: 800;
+  margin-left: 15px;
+  text-transform: uppercase;
+}
+
+.missionOthers {
+  color: white;
+  font-size: 17px;
+  margin-left: 15px;
+}

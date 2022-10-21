@@ -8,7 +8,7 @@ export default class SolarSystem extends Component {
     return (
       <div data-testid="solar-system">
         <Title headline="planetas" />
-        <ul>
+        <ul className="ulPlanets">
           {planets
             .map((planet) => (
               <PlanetCard

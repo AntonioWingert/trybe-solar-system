@@ -6,11 +6,11 @@ export default class PlanetCard extends Component {
     const { planetName, planetImage } = this.props;
     const alternativeText = `Planeta ${planetName}`;
     return (
-      <div data-testid="planet-card">
-        <p data-testid="planet-name">
+      <div data-testid="planet-card" className="planets">
+        <img src={ planetImage } alt={ alternativeText } className={ planetName } />
+        <p data-testid="planet-name" className="planetName">
           { planetName }
         </p>
-        <img src={ planetImage } alt={ alternativeText } />
       </div>
     );
   }
