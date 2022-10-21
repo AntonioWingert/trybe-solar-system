@@ -17,6 +17,7 @@ body {
   color: white;
   display: flex;
   flex-direction: row;
+  margin-left: 15%;
 }
 
 .planets {
@@ -69,7 +70,7 @@ body {
   display: flex;
   flex-flow: row wrap;
   height: 900px;
-  margin-left: 8%;
+  margin-left: 25%;
   padding: 25px;
   width: 80%;
 }
